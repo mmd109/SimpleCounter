@@ -38,7 +38,7 @@ class MainActivity : ComponentActivity() {
                 // Show upgrade button and set onClickListener
                 upgradeButton.visibility = View.VISIBLE
                 upgradeButton.setOnClickListener {
-                    button.text = "Add 2"
+                    // button.text = "Add 2"
 
                     // Update original button to add 2 instead of 1
                     button.setOnClickListener {
